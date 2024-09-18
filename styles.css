@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background-color: black;
+}
+
+#container {
+	width: 960px;
+	height: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #DCDCDC;
+
+}
+
+.topo {
+	width: 960px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #3D3D3D;
+	position: center;
+}
+
+#logo img {
+	margin-right: 80px;
+	margin-left: 350px;
+	width: 200px;
+
+}
+
+
+.redes {
+	margin-top: 10px;
+	display: flex;
+	justify-content:center ;
+	align-items: center;
+	gap: 20px;
+}
+
+#redes img {
+	background-size: 30px;
+}
+
+#barra {
+	margin-top: 2px;
+	margin-left: 600px;
+	font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url("../img/Pesquisa.svg") no-repeat;
+    background-position: 1em;
+    padding-left: 20px;
+}
+
+
+#menu ol {
+
+	padding: 10px;
+	margin: 0px;
+	margin-top: 20px;
+	background-color: #3D3D3D;
+	list-style: none;
+}
+
+#menu ol li {
+	display: inline;
+}
+
+#menu ol li a {
+	padding: 2px 40px;
+	display: inline-block;
+	margin-left: 50px;
+	background-color: #DCDCDC;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	border-bottom: #3D3D3D;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+
+#menu ol li a:hover {
+	background-color: #a3990e;
+	opacity: 0.8;
+}
+
+ul {
+	list-style: none;
+	display: grid;
+	justify-content: center;
+	gap: 20px;
+	grid-template-columns: repeat(3, 1fr); 
+	
+}
+
+.burguers img{
+	width: 100%;
+    max-width: 160px; 
+}
+
+li {
+	border: 2px solid #3D3D3D;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+
+.itemPrice {
+	font-weight: bold;
+	color: #a3990e;
+	margin-top: 5px;
+}
+
+.burguers {
+    display: grid;
+   
+    gap: 10px; 
+    margin-top: 20px;
+    background-color: #3D3D3D;
+    padding: 10px;
+}
+
+p {
+	color: #DCDCDC;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+footer {
+	width: 960px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3D3D3D;
+}
+
+h3 {
+	margin-left: 720px;
+	color: #a3990e;
+	font-size: 14px;
+}
+
+
